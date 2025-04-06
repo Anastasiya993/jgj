@@ -46,6 +46,20 @@ nav a {
     font-size: 20px;
 }
 
+a:hover {
+    color: rgb(95, 0, 158);
+    background-color: rgb(159, 107, 255);
+}
+
+a:focus {
+    background-color: palegreen;
+    color: navy;
+}
+
+a:visited {
+    color: rgb(3, 0, 0);
+}
+
 h1 {
     color: rgb(155, 85, 143);
     font-size: 50px;
@@ -97,8 +111,9 @@ main img {
     border-radius: 10px;
 }
 
-brend {
+.brend {
     display: flex;
-    width: 1080px;
-    justify-content: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 700px;
 }
